@@ -9,7 +9,11 @@ Attacks: BadNet, A3FL, and Mirage. Standard benign clients are included.
 Running
 Install dependencies from requirements.txt, then run from this directory:
 
-python main.py --params path/to/experiment.yaml
+To run python main.py --params path/to/experiment.yaml
+
+PACE CIFAR10 : python main.py --params ./yamls/CIFAR10/Mirage_PACE.yaml
+
+PACE CIFAR100: python main.py --params ./yamls/CIFAR100/Mirage_PACE.yaml --dataset CIFAR100
 
 Reference: https://github.com/NUAA-SmartSensing/Mirage/tree/main/Mirage
 
