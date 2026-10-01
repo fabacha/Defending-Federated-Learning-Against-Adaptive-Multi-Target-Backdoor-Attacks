@@ -10,3 +10,6 @@ Running
 Install dependencies from requirements.txt, then run from this directory:
 
 python main.py --params path/to/experiment.yaml
+
+Reference: https://github.com/NUAA-SmartSensing/Mirage/tree/main/Mirage
+
