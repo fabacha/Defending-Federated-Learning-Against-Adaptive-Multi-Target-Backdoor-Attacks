@@ -1,6 +1,6 @@
 # Beyond Poisoning Containment: Defending-Federated-Learning-Against-Adaptive-Multi-Target-Backdoor-Attacks
 
-PACE code
+
 Included methods
 PACE method: cumulative per-class exclusion (defense_method: pace).
 Baselines: no defense, Multi-Krum, FoolsGold, FLAME, DeepSight, BackdoorIndicator, G²uardFL, and FedDSG.
