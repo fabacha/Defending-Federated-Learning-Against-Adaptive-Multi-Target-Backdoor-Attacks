@@ -1,4 +1,5 @@
-# Independent PACE variant: cumulative flags for the same class; no reset.
+# Multi-label Mirage / nodefense; matched 100-round submission.
+# Attack settings from yamls/Mirage/Mirage_nodefense.yaml; defense settings from the corresponding baseline.
 resumed_model: saved_models/ResNet_18_cifar10_ptm_2000_benign.pt
 data_dir: data
 load_data_from_pkl: false
@@ -63,10 +64,5 @@ poisoned_len: 8
 trigger_size: 5
 seed: 123
 malicious_train_algo: Mirage
-defense_method: pace
-pace_gap: 2.0
-pace_abs_floor: 0.05
-pace_observe_only: false
-pace_ban_after: 3
-pace_ban_replace_slots: true
-pace_ban_model_access: false
+defense_method: nodefense
+client_sampling_seed: 123
